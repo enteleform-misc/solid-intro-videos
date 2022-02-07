@@ -33,7 +33,7 @@
 
   - pay attention to waveforms to help identify cut points
 
-  - use Label Colors to provide additional context @ clips
+  - use `Label Colors` to provide additional context @ clips
     - questionable / potentially removable clips
     - review
     - edit
@@ -41,7 +41,7 @@
 
   - break up A-roll into clips, with B-roll in mind
   
-  - use Audio Track Mixer to apply track-level processing
+  - use `Audio Track Mixer` to apply track-level processing
     - LTT Preset ![](images/258c478b32fef18c874904e6a55fe4268e4f1d152f3e67817ef31c0e23f6e93f.png)  
 
   - Bin Thumbnails
@@ -53,15 +53,22 @@
   - Destructive Editing
     - e.g. censoring by replacing swear word with SFX
     - [Tools] for adjusting placement
-      - Slide
-      - Rolling Edit
+      - `Slide`
+      - `Rolling Edit`
 
   - Precision Editing
-    - Timeline Menu > Show Audio Time Units
-    - single frame Cross-Dissolve
+    - `Timeline Menu > Show Audio Time Units`
+    - single frame `Cross-Dissolve`
 
   - Transitions
     - built-in transitions cannot be saved as presets, but 3rd party transitions can
+
+  - use `Nesting` to clean up the timeline by containerizing groups of clips
+    - multiple tracks can be condensed into a single clip, which can be entered to make further edits to the original layered structure
+    - [WHAT is Nesting in Premiere Pro and WHY is it Important?](https://www.youtube.com/watch?v=A8Aw53JBLZY)
+    - alternative: render part of the timeline & re-import it
+  
+  - adjust speed throughout clip via `Clip Menu > Time Remapping > Speed`
 
 
 <!--####################################################################################################################-->
@@ -91,7 +98,7 @@
   - avoid dead space @ [audio, video] at any point in the video
     - use subtle animations for static content if nessary (*pan, zoom, etc.*)
 
-  - use Disable instead of Delete for any content that isn't 100% unneeded
+  - use `Disable` instead of `Delete` for any content that isn't 100% unneeded
 
   - be prepared to dismiss/archive content that really just doesn't fit the scene, even if it required substantial effort / resources
 
@@ -102,7 +109,7 @@
 # Keyboard Shortcuts
 <!--####################################################################################################################-->
 
-  - toggle timeline Snapping
+  - toggle timeline `Snap`
 
 
 <!--####################################################################################################################-->
@@ -113,27 +120,29 @@
   - [28:40] 6.2a: MACRO Ripple delete clip at playhead
   - [42:48] 8a: AHK trackLocker()
 
+  - [How to enable FASTER SCROLLING in Premiere Pro -- and everywhere else! - YouTube](https://www.youtube.com/watch?v=OobKVPojFmg)
+
 
 <!--####################################################################################################################-->
 # Avoid
 <!--####################################################################################################################-->
 
-  - Scale To Frame Size
+  - `Scale To Frame Size`
     - [Why]
       - misleading name
       - results in image deterioration
     - [Alternative]
-      - Set To Frame Size
+      - `Set To Frame Size`
 
   - using markers directly on clips
     - [Why]
       - Premiere tries to save to source file, sometimes causes crashes
 
-  - Three Point Editing [Insert, Overwrite]
+  - Three Point Editing [`Insert`, `Overwrite`]
     - [Why]
       - editing DX is not great
     - [Alternative]
-      - draft region @ Source, drag to timeline from clip-icon
+      - draft region @ `Source`, drag to timeline from clip-icon
 
   - relying on Auto-Save
     - [Why]
@@ -142,11 +151,31 @@
       - save frequently
       - make backups
 
+  - moving clips with transitions directly on to another clip
+    - [Why]
+      - transitions are not merged appropriately
+    - [Alternative]
+      - delete transition, then reapply after merging
+
+  - rendering from higher to lower resolution
+    - [Why]
+      - static graphics will have their resolution scaled down & become pixelated
+    - [Alternative]
+      - render at higher resolution
 
 
+<!--####################################################################################################################-->
+# Troubleshooting
+<!--####################################################################################################################-->
 
+  - [Unofficial Premiere Pro Troubleshooting Guide](https://community.adobe.com/t5/premiere-pro-discussions/unofficial-premiere-pro-troubleshooting-guide/td-p/8789200)
+  - [Taran's feature requests and bug reports     ](https://docs.google.com/spreadsheets/d/1dVJb7kI_ZETLavrplfARgn9gL8HUpvkq6A0jCPxqA3w/edit#gid=1133868629           )
 
-
+  - Lag
+    - render audio/video clips to reduce computation
+    - copy entire timeline to a new sequence
+    - make sure static graphics have speed set @ 100%
+      - this isn't something that should be modified while editing, but it can happen accidentally via `Rate Stretch` tool
 
 
 
