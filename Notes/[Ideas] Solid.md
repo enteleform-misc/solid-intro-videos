@@ -50,7 +50,7 @@
     - zoom out to list of prevalent frameworks
       - [runtime, compiled]
       - explain current state of web dev, where Solid fits in
-        -?? why was solid created
+        - why was solid created
           - to build upon predecessors that established <paradigms>
           - to resolve <issues> that are baked into predecessors that are now addressable via hindsight + improved technologies
         - goals

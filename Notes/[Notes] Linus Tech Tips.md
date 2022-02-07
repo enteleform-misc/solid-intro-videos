@@ -71,6 +71,10 @@
   - File Structure
     - versioning system
     - prefixing convention
+    
+  - Content Structure
+    - guide/explanation conventions to maintain context & intent
+      - @ [scripts, notes, assets, etc.]
 
   - Audio Levels
     - aim to average between -3 to -15 db
@@ -82,11 +86,23 @@
   - Rolls
     - [A] main content
     - [B] supporting graphics
-      - label in scripts/notes/submissions to maintain context & intent
     - [C] lead's supporting content
 
   - avoid dead space @ [audio, video] at any point in the video
     - use subtle animations for static content if nessary (*pan, zoom, etc.*)
+
+  - use Disable instead of Delete for any content that isn't 100% unneeded
+
+  - be prepared to dismiss/archive content that really just doesn't fit the scene, even if it required substantial effort / resources
+
+  - when using a multi-cam setup, only switch when necessary. don't use new angles just for the sake of using them.
+
+
+<!--####################################################################################################################-->
+# Keyboard Shortcuts
+<!--####################################################################################################################-->
+
+  - toggle timeline Snapping
 
 
 <!--####################################################################################################################-->
