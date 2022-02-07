@@ -125,10 +125,6 @@
 
   - Preferences
 
-    - `Menu > Markers > Ripple Sequence Marks`
-      - enable
-      - moves markers after `Ripple Trim`
-
     - `Menu > Edit > Preferences`
       - `General`  
         <img src="images/6eed24fccae995c836f022027afd1adba4f5d8700d56a9930fbc38116975e195.png" height="300"/>
@@ -137,29 +133,33 @@
       - `Auto-Save`  
         <img src="images/557366e9b720f166d9e6557fc20a892abef030ab4fe68e638746b797d37aefc4.png" height="300"/>
 
-    - `Timeline > Menu`  
-      <img src="images/d5d98e9ad8e65f8b177a69f37f5391ecd3069e0316ddfb37133a3da33bbe7a21.png" height="300"/>
-
-    - `Sequence > Menu`  
-      <img src="images/22a09fab3f3597714258912ae7b8717240236108ada2f3f884476a4c57a242f6.png" height="300"/>
-
-    - `Effect Controls > Menu`  
-      <img src="images/9952e56f8467b74e7613bb63ce30ec962979c9a7862c046e5e266636bd36ae24.png" height="300"/>
-
-    - `History > Menu`  
-      <img src="images/33b37dbd75d364c5c37ee914c89c46f632e4f3107ad26ea9122338d56917e848.png" height="300"/>
-
     - `Audio Meter > ContextMenu`  
       <img src="images/1a0cb731ec7c0e38be43901e42cfa8817b366aa0a831554082f83716e160e396.png" height="300"/>
 
     - `Audio Track > Settings`  
       <img src="images/6e045690f8a791ad0ad64a9e1efc730ff08d7f3291e6af6db0009788e49a65f3.png" height="300"/>
 
+    - `Clip > Link Media > Settings`  
+      <img src="images/68b284759b6b3455d034f7745966ea04fe51f2d01970368205d39c6d3791b022.png" height="300"/>
+      
+    - `Effect Controls > Menu`  
+      <img src="images/9952e56f8467b74e7613bb63ce30ec962979c9a7862c046e5e266636bd36ae24.png" height="300"/>
+
+    - `History > Menu`  
+      <img src="images/33b37dbd75d364c5c37ee914c89c46f632e4f3107ad26ea9122338d56917e848.png" height="300"/>
+
     - `Program > Button Settings`  
       <img src="images/b62fe51eae9c39a99c6e024bcdf2e70ab21cb4cf8c97fac97f2e03622457dab7.png" height="300"/>
 
-    - `Clip > Link Media > Settings`  
-      <img src="images/68b284759b6b3455d034f7745966ea04fe51f2d01970368205d39c6d3791b022.png" height="300"/>
+    - `Sequence > Menu`  
+      <img src="images/22a09fab3f3597714258912ae7b8717240236108ada2f3f884476a4c57a242f6.png" height="300"/>
+
+    - `Timeline > Menu`  
+      <img src="images/d5d98e9ad8e65f8b177a69f37f5391ecd3069e0316ddfb37133a3da33bbe7a21.png" height="300"/>
+
+    - `Menu > Markers > Ripple Sequence Marks`
+      - enable
+      - moves markers after `Ripple Trim`
 
 
 <!--####################################################################################################################-->
@@ -185,10 +185,8 @@
 <!--####################################################################################################################-->
 
   - updating immediately when releases are available
-    - [Why]
-      - major bugs have made it to release
-    - [Alternative]
-      - wait at least a month
+    - [Why] major bugs have made it to release
+    - [Alternative] wait at least a month
 
   - `Scale To Frame Size`
     - [Why]
@@ -198,14 +196,11 @@
       - `Set To Frame Size`
 
   - using markers directly on clips
-    - [Why]
-      - Premiere tries to save to source file, sometimes causes crashes
+    - [Why] Premiere tries to save to source file, sometimes causes crashes
 
   - Three Point Editing [`Insert`, `Overwrite`]
-    - [Why]
-      - editing DX is not great
-    - [Alternative]
-      - draft region @ `Source`, drag to timeline from clip-icon
+    - [Why] editing DX is not great
+    - [Alternative] draft region @ `Source`, drag to timeline from clip-icon
 
   - relying on Auto-Save
     - [Why]
@@ -215,40 +210,28 @@
       - make backups
 
   - moving clips with transitions directly on to another clip
-    - [Why]
-      - transitions are not merged appropriately
-    - [Alternative]
-      - delete transition, then reapply after merging
+    - [Why] transitions are not merged appropriately
+    - [Alternative] delete transition, then reapply after merging
 
   - rendering from higher to lower resolution
-    - [Why]
-      - static graphics will have their resolution scaled down & become pixelated
-    - [Alternative]
-      - render at higher resolution
+    - [Why] static graphics will have their resolution scaled down & become pixelated
+    - [Alternative] render at higher resolution
 
   - `Preferences > General > Default scale to frame size`
-    - [Why]
-      - it will ruin footage
-    - [Alternative]
-      - do it manually
+    - [Why] it will ruin footage
+    - [Alternative] do it manually
 
   - `Sync`
-    - [Why]
-      - it can overwrite your settings erroneously
-    - [Alternative]
-      - save settings manually
+    - [Why] it can overwrite your settings erroneously
+    - [Alternative] save settings manually
       
   - `Track Forward` Tool
-    - [Why]
-      - it will move clips, but not markers
-    - [Alternative]
-      - `Ripple Move`
+    - [Why] it will move clips, but not markers
+    - [Alternative] `Ripple Move`
 
   - `Clip > Link Media > Settings > Use Media Browser to locate files`
-    - [Why]
-      - the interface is slow & buggy
-    - [Alternative]
-      - disable, use explorer instead
+    - [Why] the interface is slow & buggy
+    - [Alternative] disable, use explorer instead
 
 
 <!--####################################################################################################################-->
