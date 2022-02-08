@@ -104,11 +104,17 @@
     - [Solid Intro Videos - Google Docs](https://docs.google.com/document/d/1XuINGmkwBeULd4Zoizk2bvvTebag9M5syxqs15Uv0go/edit )
 
   - Explainers
-    - [I built the same app 10 times // Which JS Framework is best?         ](https://www.youtube.com/watch?v=cuHDQhDhvPE&t=1038s)
-    - [I created a Command Line Game for you // 5-Minute Node.js CLI Project](https://www.youtube.com/watch?v=_oHByo8tiEY?t=155  )
-    - [React in 100 Seconds                                                 ](https://www.youtube.com/watch?v=Tn6-PIqc4UM        )
-    - [Astro in 100 Seconds                                                 ](https://www.youtube.com/watch?v=dsTXcSeAZq8        )
-    - [Vue.js Explained in 100 Seconds                                      ](https://www.youtube.com/watch?v=nhBVL41-_Cw        )
+    - [React in 100 Seconds           ](https://www.youtube.com/watch?v=Tn6-PIqc4UM)
+    - [Astro in 100 Seconds           ](https://www.youtube.com/watch?v=dsTXcSeAZq8)
+    - [Vue.js Explained in 100 Seconds](https://www.youtube.com/watch?v=nhBVL41-_Cw)
+
+  - Code Walkthroughs
+    - [I built the same app 10 times // Which JS Framework is best?            ](https://www.youtube.com/watch?v=cuHDQhDhvPE&t=1038s)
+    - [Build a Mindblowing 3D Portfolio Website // Three.js Beginner’s Tutorial](https://www.youtube.com/watch?v=Q7AOvWpIVHU        )
+    - [I built a chat app in 7 minutes with React & Firebase                   ](https://www.youtube.com/watch?v=zQyrwxMPm88        )
+    - [I built a decentralized chat dapp // GUN web3 Tutorial                  ](https://www.youtube.com/watch?v=J5x3OMXjgMc        )
+    - [I created a Command Line Game for you // 5-Minute Node.js CLI Project   ](https://www.youtube.com/watch?v=_oHByo8tiEY        )
+    - [TypeScript - The Basics                                                 ](https://www.youtube.com/watch?v=ahCwqrYpIuM        )
 
   - Documentation
     - [XState Docs                                              ](https://xstate.js.org/docs/                           )
