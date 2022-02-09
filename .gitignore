@@ -3,4 +3,4 @@
 **/*.mp4
 **/*.mkv
 
-/Assets/\[ Reference \]/\[Fireship\] React in 100 Seconds/*.gif
+/Assets/\[ Reference \]/\[Fireship\] React in 100 Seconds/**/*.gif
