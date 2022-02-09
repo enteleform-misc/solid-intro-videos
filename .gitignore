@@ -1,3 +1,6 @@
 /Premiere/Adobe Premiere Pro Auto-Save
+**/*.avi
 **/*.mp4
 **/*.mkv
+
+/Assets/\[ Reference \]/\[Fireship\] React in 100 Seconds/*.gif
