@@ -129,7 +129,7 @@
 
 
 <!--####################################################################################################################-->
-# Dave's Notes
+# Dave's Notes [1] (*feedback @ Tutorial.FirstDraft*)
 <!--####################################################################################################################-->
 
   - Definitely need to disable the error window popping up and the tooltip above the cursor as you're typing
@@ -140,6 +140,42 @@
   - If we can aim for a total video time of 7:30 or 8:00 that would be ideal
   - Can the conclusion have a few final sentence ie. "Thanks for watching this intro to Solid." maybe even draw attention to a second video? or better yet a CTA to draw them to try it out in the playground by mentioning playground.solidjs.com. We can use an embedded YouTube link to push them directly tot he sample you created in the video.
 
+
+<!--####################################################################################################################-->
+# Dave's Notes [2-1] (*guidelines @ Intro*)
+<!--####################################################################################################################-->
+
+  Lets laser focus on the Solid in 100 seconds video. Here's a rough outline of what I think should be key topics:
+
+  - Solid is a simple and performant declarative reactive Javascript framework under 7kb
+  - Uses JSX and a custom compiler to orchestrate fine-grained reactivity (think Svelte meets React)
+  - Ships with one of the smallest and most performant runtimes
+  - No VDOM and focuses on giving you more native access to the DOM instead of obfuscating code with magic
+  - Everything is a primitive: ships with 4 primary and a handful of advanced reactive helpers
+  - Built-in components to make reading your apps easier: Show, For, directives and custom event handlers etc.
+  - Fully featured including Fragments, Portals, Context, Suspense, SSR & Hydration, Directives
+  - Solid is simplicity with free performance (dominates respected benchmarks) on client and server
+  - Scales extremely well
+  - Easy to build on Vite, Astro and coming Solid Start
+  - Growing ecosystem focused on quality vs quantity
+  - If you're a React or Vue developer, Solid will be comfortable and natural right out of the box 
+
+  Each point could receive 5-10s which brings it to 100s
+  As for the visuals I'd like to ensure they are on-brand and professional as opposed to Fireships more kitschy/gimmicky style 
+  
+
+<!--####################################################################################################################-->
+# SolidJS.com
+<!--####################################################################################################################-->
+
+  Performant:  Consistently tops recognized UI speed and memory utilization benchmarks.
+
+  Powerful:    Composable reactive primitives married with the flexibility of JSX.
+
+  Pragmatic:   A sensible and tailored API makes developing fun and simple.
+
+  Productive:  Ergonomics and familiarity make building simple or complex things a breeze.
+  
 
 <!--####################################################################################################################-->
 # FollowUp @ Discord
